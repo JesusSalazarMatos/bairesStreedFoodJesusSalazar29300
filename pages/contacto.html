@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
     <title>Contacto</title>
-    
 </head>
 <body>
     <header>
@@ -23,20 +23,20 @@
                     <li><a href="./burgers.html">BURGERS</a></li>
                     <li><a href="./pizza.html">PIZZA</a></li>
                     <li><a href="./sushi.html">SUSHI</a></li>
-                    <li><a href="contacto.html">CONTACTO</a></li>                   
+                    <li><a href="contacto.html">CONTACTO</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
         <section>
-            <h1>CONTACTO</h1>
+            <h1 data-aos="zoom-in">CONTACTO</h1>
         </section>
         <!-- formulario de contacto -->
         <section>
             
             <div class="form">
-                <form action="" class="formulario">
+                <form action="" class="formulario" data-aos="zoom-in">
                     <h4>ENVIANOS UN MENSAJE</h4>
 
                    <label for="nombre">Nombre Completo:</label>
@@ -57,13 +57,17 @@
         </section>
     </main>
     <footer>
-        <h3>Redes Sociales</h3>
+        <h3 data-aos="zoom-in">Redes Sociales</h3>
         <ul class="listas">
             <li><a href="https://www.facebook.com/"><img class="imgFooter" src="../images/facebookLogo.png" alt="Logo Faceboock"></a></li>
             <li><a href="https://twitter.com/"><img src="../images/twitterLogo.png" alt="Logo Twitter"></a></li>
             <li><a href="https://www.instagram.com/"><img src="../images/instagramLogo.png" alt="Logo instagram"></a></li>
         </ul>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    
 </body>
 </html>

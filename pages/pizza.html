@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
     <title>Pizza</title>
-    
 </head>
 <body>
     <header>
@@ -23,7 +23,7 @@
                     <li><a href="./burgers.html">BURGERS</a></li>
                     <li><a href="./pizza.html">PIZZA</a></li>
                     <li><a href="./sushi.html">SUSHI</a></li>
-                    <li><a href="./contacto.html">CONTACTO</a></li>                    
+                    <li><a href="./contacto.html">CONTACTO</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,20 +32,20 @@
 
     <main>
         <section>
-            <h1>PIZZA</h1>
+            <h1 data-aos="zoom-in">PIZZA</h1>
         
         <div class="imgUno">
-            <img src="../images/pizza.jpg" alt="pizza">
+            <img src="../images/pizza.jpg" alt="pizza" data-aos="flip-down">
         </div>
         </section>
         <section>
             <article class="art">
                 <div class="divTitle"><h2>La Mezzeta</h2></div>
                 <div class="divImg">
-                    <img src="../images/laMezzeta.jpg" alt="Piza La Mezzeta">
+                    <img src="../images/laMezzeta.jpg" alt="Piza La Mezzeta" data-aos="flip-down">
                 </div>
                 <div class="divText">
-                    <p>
+                    <p data-aos="flip-up">
                     La Mezzetta es una Pizzería informal, que data de la década de 1930, con pocas mesas y en la que 
                     sirven pizzas y empanadas La Mezzetta está en el podio de las mejores pizzas de Buenos Aires. 
                     Es un lugar pequeño, así que es ideal si querés comer una porción de pizza a la hora de la merienda
@@ -59,10 +59,10 @@
             <article class="art">
                 <div class="divTitle"><h2>Fugazzi</h2></div>
                 <div class="divImg">
-                    <img src="../images/Fugazzi.jpg" alt="Pizza Fugazzi">
+                    <img src="../images/Fugazzi.jpg" alt="Pizza Fugazzi" data-aos="flip-down">
                 </div>
                 <div class="divText">
-                    <p>
+                    <p data-aos="flip-up">
                     Fugazi es sin duda la mejor opción de pizzas en balvanera, son a la piedra, al mejor estilo
                     napolitano y completamente preparadas con ingredientes organicos 
                     La más vendida es la Muzza, seguida muy de cerca por la Napo (con tomates cherry, ajo y queso 
@@ -74,10 +74,10 @@
             <article class="art">
                 <div class="divTitle"><h2>Punto Pizza</h2></div>
                 <div class="divImg">
-                    <img src="../images/puntoPizza.jpg" alt="pizza punto pizza">
+                    <img src="../images/puntoPizza.jpg" alt="pizza punto pizza" data-aos="flip-down">
                 </div>
                 <div class="divText">
-                    <p>
+                    <p data-aos="flip-up">
                     Hay clásicos que siempre serán clásicos. Aplica para libros, películas, canciones e incluso para 
                     la pizza. La típica y deliciosa de muzzarella, la napolitana y la fugazzeta, salen diariamente 
                     de los hornos de las pizzerías en Buenos Aires para acompañar cualquier plan, cualquier día, a 
@@ -93,13 +93,16 @@
         
     </main>
     <footer>
-        <h3>Redes Sociales</h3>
+        <h3 data-aos="zoom-in">Redes Sociales</h3>
         <ul class="listas">
             <li><a href="https://www.facebook.com/"><img class="imgFooter" src="../images/facebookLogo.png" alt="Logo Faceboock"></a></li>
             <li><a href="https://twitter.com/"><img src="../images/twitterLogo.png" alt="Logo Twitter"></a></li>
             <li><a href="https://www.instagram.com/"><img src="../images/instagramLogo.png" alt="Logo instagram"></a></li>
         </ul>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
