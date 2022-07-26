@@ -8,31 +8,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
     <title>Sushi</title>
 </head>
 <body>
     <header>
+
         <div>
-            <!--lugar para el banner uqe aun esta en desarrollo-->
-        </div>
-        <div>
-            <nav>
-                <ul class="listas">
-                    <li><a href="../index.html">INICIO</a></li>
-                    <li><a href="../pages/burgers.html">BURGERS</a></li>
-                    <li><a href="../pages/pizza.html">PIZZA</a></li>
-                    <li><a href="./sushi.html">SUSHI</a></li>
-                    <li><a href="../pages/contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">Baires StreetFood</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                      <a class="nav-link active" href="../pages/burgers.html">BURGERS</a>
+                      <a class="nav-link active" href="../pages/pizza.html">PIZZA</a>
+                      <a class="nav-link active" href="../pages/sushi.html">SUSHI</a>
+                      <a class="nav-link active" href="../pages/contacto.html">CONTACTO</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </div>
         
     </header>
 
     <main>
         <section>
-            <h1 data-aos="zoom-in">SUSHI</h1>
+            <h1 data-aos="zoom-in" class="display-2">SUSHI</h1>
             <div class="imgUno">
                 <img src="../images/sushi.jpg" alt="sushi" data-aos="flip-down">
             </div>
@@ -103,6 +110,7 @@
     <script>
         AOS.init();
       </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     
 </body>
