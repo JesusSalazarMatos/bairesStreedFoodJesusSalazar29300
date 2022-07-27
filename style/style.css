@@ -122,7 +122,7 @@ li{
 }
 
 /*grid main*/
-
+/*
 .art{
     display: grid;
     grid-template-areas: 
@@ -141,10 +141,12 @@ li{
     grid-area: text;
     max-width: 100%;
 }
+*/
 .imgUno{
     display: flex;
     justify-content: center;
 }
+
 /*contactos*/
 /*
 .form{
@@ -215,6 +217,7 @@ li{
         font-size: 12px;
     }
     /*grid main*/
+    /*
     
     .art{
         display: grid;
@@ -235,10 +238,12 @@ li{
     .divText{
         grid-area: text;
     }
+    */
     .imgUno{
         display: flex;
         justify-content: center;
     }
+    
 
 }
 
@@ -287,7 +292,7 @@ li{
         font-size: 20px;
     }
     /*grid main*/
-    
+    /*
     .art{
         display: grid;
         grid-template-areas: 
@@ -309,10 +314,12 @@ li{
     .divText{
         grid-area: text;
     }
+    */
     .imgUno{
         display: flex;
         justify-content: center;
     }
+    
 
 }
 
@@ -362,7 +369,7 @@ li{
         font-size: 24px;
     }
     /*grid main*/
-    
+    /*
     .art{
         display: grid;
         grid-template-areas: 
@@ -381,9 +388,11 @@ li{
     .divText{
         grid-area: text;
     }
+    */
     .imgUno{
         display: flex;
         justify-content: center;
     }
+    
 
 }
