@@ -1,0 +1,14 @@
+.form{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-family: $fuenteOpen;
+    border: 8px solid $color4;
+    
+}
+.formulario label, .formulario input, .formulario textarea{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    
+}
