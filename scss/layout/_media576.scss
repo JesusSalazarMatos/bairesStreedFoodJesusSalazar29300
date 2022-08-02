@@ -1,0 +1,49 @@
+@media (min-width: 576px){
+    header{
+        padding: 5px;
+        
+    }
+
+    main{
+        padding: 10px;
+
+        
+    }
+    
+    h1{
+        padding: 10px;
+        margin: 0px 5px 10px 5px;
+        font-size: 15px;
+        
+    }
+    h2{
+        padding: 15px;
+        margin: 15px 20px 15px 20px;
+    }
+    
+    p{
+       
+        padding: 15px;
+        margin: 15px 30px 15px 30px;
+    }
+    img{
+        max-width: 100%;
+    
+        
+    }
+    footer{
+        padding: 10px;
+    }
+    h3{
+        padding: 15px;
+        margin: 0px 10px 5px 10px;
+        font-size: 12px;
+    }
+
+    .imgUno{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+}

@@ -1,0 +1,51 @@
+@media (min-width: 992px){
+    header{
+        padding: 20px;
+    }
+
+    main{
+        padding: 20px;
+
+        
+    }
+    
+    h1{
+        padding: 20px;
+        margin: 0px 10px 20px 10px;
+        font-size: 30px;
+        
+    }
+    h2{
+        padding: 30px;
+        margin: 30px 40px 30px 40px;
+    }
+    
+    p{
+        padding: 30px;
+        margin: 30px 60px 30px 60px;
+    }
+    img{
+      
+        max-width: auto;
+        max-height: 600px;
+    
+        
+    }
+
+    footer{
+        padding: 20px;
+  
+    }
+    h3{
+        padding: 30px;
+        margin: 0px 20px 10px 20px;
+        font-size: 24px;
+    }
+
+    .imgUno{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+}
