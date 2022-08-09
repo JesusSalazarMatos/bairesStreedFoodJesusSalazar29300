@@ -1,29 +1,26 @@
 @media (min-width: 768px){
     header{
-        padding: 10px;
+        @include medidas (10px, none, none);
     }
     
     main{
-        display: grid;
-        padding: 17px;
+        @include medidas (17px, none, none);
         
     }
     
     h1{
-        padding: 17px;
-        margin: 0px 10px 20px 10px;
-        font-size: 20px;
+
+        @include medidas (17px, 0px 10px 20px 10px, 20px);
         
     }
     h2{
-        padding: 20px;
-        margin: 20px 25px 20px 25px;
+
+        @include medidas(20px, 20px 25px 20px 25px, none);
     }
     
     p{
         
-        padding: 20px;
-        margin: 20px 40px 20px 40px;
+        @include medidas (20px, 20px 40px 20px 40px, none);
     
     }
     img{
@@ -33,12 +30,11 @@
         
     }
     footer{
-        padding: 20px;
+        @include medidas (20px, none, none);
     }
     h3{
-        padding: 25px;
-        margin: 0px 20px 10px 20px;
-        font-size: 20px;
+
+        @include medidas (25px, 0px 20px 10px 20px, 20px);
     }
     .imgUno{
         display: flex;

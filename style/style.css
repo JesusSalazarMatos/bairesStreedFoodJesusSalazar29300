@@ -125,9 +125,13 @@ li {
 @media (min-width: 576px) {
   header {
     padding: 5px;
+    margin: none;
+    font-size: none;
   }
   main {
     padding: 10px;
+    margin: none;
+    font-size: none;
   }
   h1 {
     padding: 10px;
@@ -137,16 +141,20 @@ li {
   h2 {
     padding: 15px;
     margin: 15px 20px 15px 20px;
+    font-size: none;
   }
   p {
     padding: 15px;
     margin: 15px 30px 15px 30px;
+    font-size: none;
   }
   img {
     max-width: 100%;
   }
   footer {
     padding: 10px;
+    margin: none;
+    font-size: none;
   }
   h3 {
     padding: 15px;
@@ -161,10 +169,13 @@ li {
 @media (min-width: 768px) {
   header {
     padding: 10px;
+    margin: none;
+    font-size: none;
   }
   main {
-    display: grid;
     padding: 17px;
+    margin: none;
+    font-size: none;
   }
   h1 {
     padding: 17px;
@@ -174,10 +185,12 @@ li {
   h2 {
     padding: 20px;
     margin: 20px 25px 20px 25px;
+    font-size: none;
   }
   p {
     padding: 20px;
     margin: 20px 40px 20px 40px;
+    font-size: none;
   }
   img {
     max-width: auto;
@@ -185,6 +198,8 @@ li {
   }
   footer {
     padding: 20px;
+    margin: none;
+    font-size: none;
   }
   h3 {
     padding: 25px;
@@ -199,9 +214,13 @@ li {
 @media (min-width: 992px) {
   header {
     padding: 20px;
+    margin: none;
+    font-size: none;
   }
   main {
     padding: 20px;
+    margin: none;
+    font-size: none;
   }
   h1 {
     padding: 20px;
@@ -211,10 +230,12 @@ li {
   h2 {
     padding: 30px;
     margin: 30px 40px 30px 40px;
+    font-size: none;
   }
   p {
     padding: 30px;
     margin: 30px 60px 30px 60px;
+    font-size: none;
   }
   img {
     max-width: auto;
@@ -222,6 +243,8 @@ li {
   }
   footer {
     padding: 20px;
+    margin: none;
+    font-size: none;
   }
   h3 {
     padding: 30px;

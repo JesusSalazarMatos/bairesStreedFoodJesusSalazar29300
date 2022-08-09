@@ -1,0 +1,6 @@
+@mixin medidas ($padding, $margin, $font-size) {
+    padding: $padding;
+    margin: $margin;
+    font-size: $font-size;
+    
+}
